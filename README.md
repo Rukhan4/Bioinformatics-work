@@ -16,6 +16,7 @@ Contains several algorithms and their dependancies used in learning about bioinf
 
 # BMPwk2:
 * Symbol array - helps to count the number of C in a window of Extended Genome, along with Pattern Count. Takes strings Genome and symbol as input and returns the symbol array of Genome corresponding to symbol.
+
 _(uses patterncount)_
 
 * FasterSymbol array - takes genome and symbol but computes it quicker by using a better for loop
