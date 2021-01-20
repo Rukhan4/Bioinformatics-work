@@ -4,15 +4,15 @@ Contains several algorithms and their dependancies used in learning about bioinf
 BMP = Biology Meets Programming course 
 
 BMPwk1 :
-# Pattern count - finds all occurences of a Pattern in a Text of bases.
+Pattern count - finds all occurences of a Pattern in a Text of bases.
 
-# Frequency Map -  computes the frequency map of a given string Text and integer k, returns a dictionary of each supplied k-mer value, eg. 3 and the provided Text
+Frequency Map -  computes the frequency map of a given string Text and integer k, returns a dictionary of each supplied k-mer value, eg. 3 and the provided Text
 
-# Frequent Words - list of all keys that have value in freq == m
+Frequent Words - list of all keys that have value in freq == m
 
-# Reverse Complement - finds the complement strand of a DNA strand
+Reverse Complement - finds the complement strand of a DNA strand
 
-# Pattern Matching
+Pattern Matching
 
 BMPwk2:
 # Symbol array - helps to count the number of C in a window of Extended Genome, along with Pattern Count. Takes strings Genome and symbol as input and returns the symbol array of Genome corresponding to symbol.
