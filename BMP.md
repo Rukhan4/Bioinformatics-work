@@ -63,6 +63,7 @@ _(uses Pr function)_
 
 * Greedy Motif Search With Pseudocounts - generates each profile matrix with pseudocounts
 
+
 _(uses Score, consensus,Pr ,ProfileMostProbableKmer, ProfileWithPseudocounts, CountWithPseudocounts)_
 
 * Motifs - takes a profile Matrix Profile corresponding to a list of strings Dna as input and returns a list of the Profile most probable k-mers in each string from Dna
