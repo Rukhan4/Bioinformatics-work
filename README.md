@@ -3,3 +3,4 @@
 This repository contains several different python scripts containing algorithms generated to learn and effectively automate Bioinformatics tasks.
 
 # BMP = BIOLOGY MEETS PROGRAMMING
+_a course offered by UCSD_ 
