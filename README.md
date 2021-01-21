@@ -4,3 +4,5 @@ This repository contains several different python scripts containing algorithms 
 
 # BMP = BIOLOGY MEETS PROGRAMMING
 _a course offered by UCSD_ 
+
+see the BMP.md file for the annotation and reasoning behind the use of each algorithm.
