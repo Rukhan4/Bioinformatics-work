@@ -9,8 +9,10 @@ Contains several algorithms and their dependancies used in learning about bioinf
 * Frequency Map -  computes the frequency map of a given string Text and integer k, returns a dictionary of each supplied k-mer value, eg. 3 and the provided Text
 
 * Frequent Words - list of all keys that have value in freq == m
+_(uses frequencymap)_
 
 * Reverse Complement - finds the complement strand of a DNA strand
+_(uses reverse,complement)_
 
 * Pattern Matching
 
