@@ -28,6 +28,7 @@ def FrequencyMap(Text, k):
     return freq
 
 # Frequent Words - list of all keys that have value in freq == m
+# uses frequencymap
 
 
 def FrequentWords(Text, k):
@@ -41,6 +42,7 @@ def FrequentWords(Text, k):
     return words
 
 # Reverse Complement - finds the complement strand of a DNA strand
+# uses reverse,complement
 
 
 def ReverseComplement(Pattern):
@@ -63,7 +65,7 @@ def Complement(Pattern):
         complement += basepairs.get(base)  # Get returns value for key
     return complement
 
-# Pattern Matching
+# Pattern Matching - find all occurrences of a pattern in a string
 
 
 def PatternMatching(Pattern, Genome):
