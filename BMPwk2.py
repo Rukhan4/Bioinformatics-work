@@ -1,12 +1,17 @@
+"""
+NOT RUN
+"""
+
 # Symbol array - helps to count the number of C in a window of Extended Genome, along with Pattern Count. Takes strings Genome and symbol
 # as input and returns the symbol array of Genome corresponding to symbol.
 # uses patterncount
+
 
 def SymbolArray(Genome, symbol):
     array = {}
     n = len(Genome)
     ExtendedGenome = Genome + Genome[0:n//2]
-    for i in range(n):
+    for i in range(n):  # i-th element is the number of occurrences of the symbol in window length len(genome)//2 starting at pos i of Extended Genome
         array[i] = PatternCount(symbol, ExtendedGenome[i:i+(n//2)])
     return array
 
