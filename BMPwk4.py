@@ -1,5 +1,5 @@
-# Count with Pseudocounts - takes a list of strings Motifs as input and returns the count matrix of Motifs with pseudocounts as a dict
-# of lists
+# Count with Pseudocounts - takes a list of strings Motifs as input and returns the count matrix of Motifs
+# with pseudocounts as a dict of lists
 # Similar to count matrix but it starts at 1 and not 0
 
 import random
@@ -21,6 +21,7 @@ def CountWithPseudocounts(Motifs):
 
 # Profile with Pseudocounts - takes a list of strings Motifs as input and returns the profile matrix of Motifs with pseudocount as a dict
 # of lists
+# uses Countwithpseudocounts
 
 
 def ProfileWithPseudocounts(Motifs):
@@ -61,7 +62,7 @@ def GreedyMotifSearchWithPseudocounts(Dna, k, t):
 def Motifs(Profile, Dna):
     motifs = []
     t = len(Dna)
-    k = 4
+    k = 4  # for a 4-mer string
     for i in range(t):
         motif = ProfileMostProbableKmer(Dna[i], k, Profile)
         motifs.append(motif)
@@ -106,18 +107,18 @@ def RepeatedRandomizedMotifSearch(Dna, k, t):
     BestMotifs = []
     for _ in range(N):
         Motifs = RandomizedMotifSearch(Dna, k, t)
-        CurrScore = Score(Motifs)
-        if CurrScore < BestScore:
-            BestScore = CurrScore
+        CurrentScore = Score(Motifs)
+        if CurrentScore < BestScore:
+            BestScore = CurrentScore
             BestMotifs = Motifs
     return BestMotifs
 
 
 BestMotifs = RepeatedRandomizedMotifSearch(Dna, k, t)
 
-# Normalize - rescale a collection of probabilities so that they sum to 1. It takes a dict Probabilities whose keys are kmers
-# values are probabilities of these kmers. It then divides each value in Probabilities by the sum of all values in Probabilities,
-# returning the resulting dict.
+# Normalize - rescale a collection of probabilities so that they sum to 1(follows Laplace's rule of succession).
+# It takes a dict Probabilities whose keys are kmers, values are probabilities of these kmers.
+# It then divides each value in Probabilities by the sum of all values in Probabilities, returning the resulting dict.
 
 
 def Normalize(Probabilities):
@@ -126,12 +127,12 @@ def Normalize(Probabilities):
         Probabilities[key] /= sumd
     return Probabilities
 
-# Weighted die - takes a dict Probabilities whose keys are kmers and values are Prob of these Kmers. Returns a randomly chosen kmer key
-# wrt values in Probabilities
+# Weighted die - takes a dict Probabilities whose keys are kmers and values are Prob of these Kmers.
+# Returns a randomly chosen kmer key wrt values in Probabilities
 
 
 def WeightedDie(Probabilities):
-    kmer = ''  # output variable
+    kmer = ''
     num = random.uniform(0, 1)
     sumd = 0
     for key in Probabilities.keys():
@@ -154,14 +155,15 @@ def ProfileGeneratedString(Text, profile, k):
     return WeightedDie(probabilities)
 
 # Gibbs sampler - discards a single kmer from the current set of motifs at each iteration and decides to either keep or replace one
+# continuously to generate a suboptimal solution particularly for different search problems with elusive motifs (local optimum)
 # uses randommotifs, countwithpseudocounts,profilewithpseudocounts,profilegeneratingstring,normalize,weighteddie, pr,score,consensus,count
 
 
 def GibbsSampler(Dna, k, t, N):
-    BestMotifs = []  # output variable
+    BestMotifs = []
     Motifs = RandomMotifs(Dna, k, t)
     BestMotifs = Motifs
-    for _ in range(N):
+    for i in range(N):
         i = random.randint(0, t-1)
         new_Motif = []
         for k1 in range(t):
