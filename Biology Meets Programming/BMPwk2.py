@@ -90,7 +90,7 @@ def HammingDistance(p, q):
     return count
 
 # Approximate Pattern Matching - finf all approx occurrences of a pattern in a string with at most d mismatches
-# uses hammingdistance
+# uses hammingdistance 
 
 
 def ApproximatePatternMatching(Text, Pattern, d):
