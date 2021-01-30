@@ -2,8 +2,11 @@
 NOT RUN
 """
 
-# Symbol array - helps to count the number of C in a window of Extended Genome, along with Pattern Count. Takes strings Genome and symbol
+# Symbol array - helps to count the number of Cytosine in a window of Extended Genome, along with Pattern Count. Takes strings Genome and symbol
 # as input and returns the symbol array of Genome corresponding to symbol.
+# Since on a forward half strand, the strand remains single stranded for most of it's life due to DNA polymerase being unidirectional,
+# Cytosine often mutates into Thymine through deamination. Hence, the area with the least frequent no. of C
+# Should correspond to the forward half strand, & most amount of C should be the reverse half strand
 # uses patterncount
 
 
@@ -67,7 +70,6 @@ def SkewArray(Genome):
 def MinimumSkew(Genome):
     positions = []  # output variable
     array = SkewArray(Genome)
-    positions = []
     count = 0
     minarray = min(array)
     for i in array:
@@ -107,4 +109,3 @@ def ApproximatePatternCount(Pattern, Text, d):
         if HammingDistance(Pattern, Text[i:i+len(Pattern)]) <= d:
             count += 1
     return count
- 
