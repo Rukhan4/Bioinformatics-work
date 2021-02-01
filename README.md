@@ -10,4 +10,5 @@ see the BMP.md file for the annotation and reasoning behind the use of each algo
 # Data Analysis for Life Sciences
 _a course offered by Harvard_
 
-the .gitignore file contains all the prop material and is filtered out
+the .gitignore file contains all the prop material and is filtered out.
+Folder contains all the algorithms and techniques I employed to advance through the assignments of the course
