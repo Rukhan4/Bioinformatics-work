@@ -7,7 +7,7 @@ NOT RUN
 # Since on a forward half strand, the strand remains single stranded for most of it's life due to DNA polymerase being unidirectional,
 # Cytosine often mutates into Thymine through deamination. Hence, the area with the least frequent no. of C
 # Should correspond to the forward half strand, & most amount of C should be the reverse half strand
-# uses patterncount
+# uses patterncount 
 
 
 def SymbolArray(Genome, symbol):
