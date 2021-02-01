@@ -5,7 +5,7 @@ This repository contains several different python and R scripts containing algor
 # BIOLOGY MEETS PROGRAMMING
 _a course offered by UCSD_ 
 
-BMP - Biology Meets Programming
+BMP - Biology Meets Programming,
 see the BMP.md file for the annotation and reasoning behind the use of each algorithm.
 
 # Data Analysis for Life Sciences
