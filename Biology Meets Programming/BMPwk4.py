@@ -62,7 +62,7 @@ def GreedyMotifSearchWithPseudocounts(Dna, k, t):
 def Motifs(Profile, Dna):
     motifs = []
     t = len(Dna)
-    k = 4  # for a 4-mer string
+    #May take in a k value here
     for i in range(t):
         motif = ProfileMostProbableKmer(Dna[i], k, Profile)
         motifs.append(motif)
