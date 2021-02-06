@@ -160,18 +160,18 @@ def ProfileGeneratedString(Text, profile, k):
 
 
 def GibbsSampler(Dna, k, t, N):
-    BestMotifs = []
     Motifs = RandomMotifs(Dna, k, t)
-    BestMotifs = Motifs
-    for i in range(N):
-        i = random.randint(0, t-1)
-        new_Motif = []
-        for k1 in range(t):
-            if k1 != i:
-                new_Motif.append(Motifs[k1])
-        profile = ProfileWithPseudocounts(new_Motif)
-        motif_i = ProfileGeneratedString(Dna[i], profile, k)
-        Motifs[i] = motif_i
+    BestMotifs = Motifs.copy()
+    for _ in range(1, N):
+        i = random.randint(0, t - 1)
+        Profile_Motifs = []
+        for f in range(0, t):
+            if f != i:
+                Profile_Motifs.append(Motifs[f])
+        Profile = ProfileWithPseudocounts(Profile_Motifs)
+        Mot = ProfileGeneratedString(Dna[i], Profile, k)
+        Motifs = Profile_Motifs.copy()
+        Motifs.insert(i, Mot)
         if Score(Motifs) < Score(BestMotifs):
             BestMotifs = Motifs
     return BestMotifs
