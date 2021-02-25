@@ -10,10 +10,12 @@ see the BMP.md file for the annotation and reasoning behind the use of each algo
 
 # Bioinformatics Specialization 
 _a course offered by UCSD_ 
+
 consists of 6 courses in Python 
 
 # Data Analysis for Life Sciences
 _a course offered by Harvard_
+
 consists of 4 courses in R 
 
 the .gitignore file contains all the prop material and is filtered out.
