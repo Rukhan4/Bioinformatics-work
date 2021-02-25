@@ -7,7 +7,7 @@
 
 Text = "AAGATTCTCTAAGA"
 k = 4  # (nodes on the graph and hence adjacency list is length 3 from k-1)
-"""
+
 
 
 
