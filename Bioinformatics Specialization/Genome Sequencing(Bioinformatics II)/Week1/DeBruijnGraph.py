@@ -9,13 +9,6 @@ Text = "AAGATTCTCTAAGA"
 k = 4  # (nodes on the graph and hence adjacency list is length 3 from k-1)
 """
 
-Text = ""
-with open("C:/Users/18687/Desktop/Bio Informatics/Bioinformatics specialization/debruijngraph.txt", "r") as file:
-    k = int(file.readline().strip())
-    Text = file.readline()
-
-file.close()
-"""
 
 
 def DeBruijnGraph(Text, k):
