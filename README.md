@@ -15,7 +15,9 @@ see the BMP.md file for the annotation and reasoning behind the use of each algo
 # Bioinformatics Specialization 
 _a course offered by UCSD_ 
 
-consists of 6 courses in Python 
+consists of 6 courses in Python
+
+NOTE: The dunder(name) == dunder("main") module name method was only employed starting from Bioinformatics III Week 5.
 
 # Data Analysis for Life Sciences
 _a course offered by Harvard_
