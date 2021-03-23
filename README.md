@@ -13,7 +13,9 @@ see the BMP.md file for the annotation and reasoning behind the use of each algo
 # Bioinformatics Specialization 
 _a course offered by UCSD_ 
 
-consists of 6 courses in Python
+consists of 6 courses in Python. 
+
+**The code in this repository is sourced from ROSALIND - A free online Bioinformatics Algorithms learning platform**
 
 NOTE: The dunder(name) == dunder("main") module name method was only employed starting from Bioinformatics III Week 5.
 
