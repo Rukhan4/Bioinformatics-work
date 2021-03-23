@@ -1,7 +1,5 @@
 # Bioinformatics-work
 
-# COPYING CODE FOUND HERE VIOLATES THE HONOR CODE THESE COURSES FOLLOW!
-
 
 This repository contains several different python and R scripts containing algorithms generated to learn and effectively automate Bioinformatics tasks.
 
