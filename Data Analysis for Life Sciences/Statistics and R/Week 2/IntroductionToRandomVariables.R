@@ -1,0 +1,12 @@
+x <- read.csv("femaleControlsPopulation.csv")
+x <- unlist(x)
+RNGkind()
+mean(x)
+set.seed(1)
+sampler = sample(x,5)
+mean(sampler)
+abs(mean(x))-abs(mean(sampler))
+
+set.seed(5)
+sampler2 = sample(x,5)
+abs(mean(x))-abs(mean(sampler2))
