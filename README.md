@@ -15,7 +15,7 @@ _a course offered by UCSD_
 
 consists of 6 courses in Python. 
 
-**The code in this repository is sourced from ROSALIND - A free online Bioinformatics Algorithms learning platform**
+**The code in this repository is sourced from ROSALIND - A free online Bioinformatics Algorithms learning platform** - it DOES NOT violate the Coursera Honor Code.
 
 NOTE: The dunder(name) == dunder("main") module name method was only employed starting from Bioinformatics III Week 5.
 
