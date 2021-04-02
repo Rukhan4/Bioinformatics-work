@@ -11,7 +11,7 @@ BMP - Biology Meets Programming
 see the BMP.md file for the annotation and reasoning behind the use of each algorithm. Programming Language: Python
 
 # Bioinformatics Specialization 
-_a course offered by UCSD_ 
+_a specialization offered by UCSD_ 
 
 consists of 6 courses in Python. 
 
@@ -20,7 +20,7 @@ consists of 6 courses in Python.
 NOTE: The dunder(name) == dunder("main") module name method was only employed starting from Bioinformatics III Week 5.
 
 # Data Analysis for Life Sciences
-_a course offered by Harvard_
+_a specialization offered by Harvard_
 
 consists of 4 courses in R 
 
