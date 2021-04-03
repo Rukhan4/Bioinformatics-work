@@ -24,5 +24,4 @@ _a specialization offered by Harvard_
 
 consists of 4 courses in R 
 
-the .gitignore file contains all the prop material and is filtered out.
-Folder contains all the algorithms and techniques I employed to advance through the assignments of the course. 
+
