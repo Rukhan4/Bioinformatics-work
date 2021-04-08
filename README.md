@@ -15,7 +15,7 @@ _a specialization offered by UCSD_
 
 consists of 6 courses in Python. 
 
-**The code in this repository is sourced from ROSALIND - A free online Bioinformatics Algorithms learning platform** - it DOES NOT violate the Coursera Honor Code.
+**The code in this repository is sourced from ROSALIND - A free, open source Bioinformatics Algorithms learning platform** 
 
 NOTE: The dunder(name) == dunder("main") module name method was only employed starting from Bioinformatics III Week 5.
 
@@ -24,5 +24,4 @@ _a specialization offered by Harvard_
 
 consists of 4 courses in R 
 
-the .gitignore file contains all the prop material and is filtered out.
-Folder contains all the algorithms and techniques I employed to advance through the assignments of the course. 
+
