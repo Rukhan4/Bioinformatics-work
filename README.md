@@ -3,7 +3,7 @@
 
 This repository contains several different python and R scripts containing algorithms generated to learn and effectively automate Bioinformatics tasks.
 
-# Biology Meets Programming
+# [Biology Meets Programming](https://www.coursera.org/learn/bioinformatics)
 _a course offered by UCSD_ 
 
 BMP - Biology Meets Programming
