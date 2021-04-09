@@ -10,7 +10,7 @@ BMP - Biology Meets Programming
 
 consists of 1 course in Python
 
-# Bioinformatics Specialization 
+# [Bioinformatics Specialization](https://www.coursera.org/specializations/bioinformatics)
 _a specialization offered by UCSD_ 
 
 consists of 6 courses in Python. 
@@ -19,7 +19,7 @@ consists of 6 courses in Python.
 
 NOTE: The dunder(name) == dunder("main") module name method was only employed starting from Bioinformatics III Week 5.
 
-# Data Analysis for Life Sciences
+# [Data Analysis for Life Sciences](https://www.edx.org/professional-certificate/harvardx-data-analysis-for-life-sciences?index=product&queryID=771038caca508483526c0c77cdef1866&position=1)
 _a specialization offered by Harvard_
 
 consists of 4 courses in R 
