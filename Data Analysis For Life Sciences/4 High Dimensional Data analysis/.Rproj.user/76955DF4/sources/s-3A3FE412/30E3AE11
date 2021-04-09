@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1609358134213.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1181904586",
+    "id" : "30E3AE11",
+    "lastKnownWriteTime" : 1609277779,
+    "last_content_update" : 1609277779,
+    "path" : "C:/Users/18687/Desktop/R projects/High Dimensional Data analysis/Week 4/Modelling_batch_effects_exercise.R",
+    "project_path" : "Week 4/Modelling_batch_effects_exercise.R",
+    "properties" : {
+        "cursorPosition" : "24,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

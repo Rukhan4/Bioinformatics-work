@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1609358328414.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "159004400",
+    "id" : "EAC6C526",
+    "lastKnownWriteTime" : 1609276672,
+    "last_content_update" : 1609276672,
+    "path" : "C:/Users/18687/Desktop/R projects/High Dimensional Data analysis/Week 4/Confounding_in_genomics_exercise.R",
+    "project_path" : "Week 4/Confounding_in_genomics_exercise.R",
+    "properties" : {
+        "cursorPosition" : "33,34",
+        "scrollLine" : "36",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

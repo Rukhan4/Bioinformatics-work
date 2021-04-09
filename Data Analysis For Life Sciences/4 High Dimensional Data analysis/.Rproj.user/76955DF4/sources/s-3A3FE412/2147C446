@@ -1,0 +1,24 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1609359041428.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "2147C446",
+    "lastKnownWriteTime" : 1609359148,
+    "last_content_update" : 1609359148583,
+    "path" : "C:/Users/18687/Desktop/R projects/High Dimensional Data analysis/Week 4/SVA_exercise.R",
+    "project_path" : "Week 4/SVA_exercise.R",
+    "properties" : {
+        "cursorPosition" : "38,0",
+        "docOutlineVisible" : "0",
+        "scrollLine" : "17",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

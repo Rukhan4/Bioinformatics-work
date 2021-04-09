@@ -1,0 +1,39 @@
+library(BiocManager)
+BiocManager::install("bladderbatch")
+library(bladderbatch)
+data(bladderdata)
+#Expression data
+edata = exprs(bladderEset)
+#Pheno data
+pheno = pData(bladderEset)
+#Subsetted expression data
+ind = which(pheno$batch%in%1:3)
+expr = edata[,ind]
+#Subset pheno data and redefine factor levels
+pdata = data.frame(batch = factor(pheno$batch[ind]),cancer = factor(pheno$cancer[ind]))
+
+#Question 1
+table(pdata)
+
+#Question 2 compare gene expression in the normal samples from batch 2,3.
+#Extract relevant subset:
+index = which(pdata$cancer == "Normal")
+expr_norm = edata[ ,index]
+batch_norm = factor(pdata$batch[index])
+library(genefilter)
+library(qvalue)
+pval = rowttests(edata[,index],batch_norm)$p.value
+qval = qvalue(pval)
+mean(qval$qvalues<0.05)
+
+#Question 3
+
+#Question 4
+X = model.matrix(~pdata$cancer+pdata$batch)
+pvals = sapply(1:nrow(expr),function(i){
+  y = expr[i,]
+  fit = lm(y~X-1)
+  summary(fit)$coef
+})
+qvals = qvalue(pvals)
+mean(qvals$qvalues>0.05)

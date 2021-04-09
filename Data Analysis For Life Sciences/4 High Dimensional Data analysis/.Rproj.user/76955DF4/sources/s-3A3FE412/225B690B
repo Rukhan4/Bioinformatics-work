@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1609357733498.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "225B690B",
+    "lastKnownWriteTime" : 1609357741,
+    "last_content_update" : 1609360143764,
+    "path" : "C:/Users/18687/Desktop/R projects/High Dimensional Data analysis/Week 4/week4Quiz.R",
+    "project_path" : "Week 4/week4Quiz.R",
+    "properties" : {
+        "cursorPosition" : "37,0",
+        "scrollLine" : "17",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
