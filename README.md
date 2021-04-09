@@ -8,7 +8,7 @@ _a course offered by UCSD_
 
 BMP - Biology Meets Programming
 
-see the BMP.md file for the annotation and reasoning behind the use of each algorithm. Programming Language: Python
+consists of 1 course in Python
 
 # Bioinformatics Specialization 
 _a specialization offered by UCSD_ 
