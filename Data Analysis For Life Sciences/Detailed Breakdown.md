@@ -1,5 +1,5 @@
 # Data Analysis for Life Sciences by Harvard (70% pass rate for each course with multiple quizzes and a final exam each week)
-**Cumulative Average - 88%**
+**Cumulative Average - 88%** 
 
 ## Statistics and R
 
