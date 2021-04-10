@@ -1,7 +1,6 @@
-# Bioinformatics-work
+### Within each folder there is a file titled "Detailed Breakdown" explaining the syllabus for each course
 
-
-This repository contains several different python and R scripts containing algorithms generated to learn and effectively automate Bioinformatics tasks.
+# Bioinformatics
 
 # [Biology Meets Programming](https://www.coursera.org/learn/bioinformatics)
 _a course offered by UCSD_ 
@@ -24,4 +23,7 @@ _a specialization offered by Harvard_
 
 consists of 4 courses in R 
 
+# Machine Learning
 
+# [Machine Learning](https://www.coursera.org/learn/machine-learning)
+_a course offered by Stanford_
