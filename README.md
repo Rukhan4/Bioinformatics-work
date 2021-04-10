@@ -1,4 +1,4 @@
-# Bioinformatics-work
+# Bioinformatics
 
 
 This repository contains several different python and R scripts containing algorithms generated to learn and effectively automate Bioinformatics tasks.
