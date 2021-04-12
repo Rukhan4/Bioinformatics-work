@@ -1,4 +1,4 @@
-### Within each folder there is a file titled "Detailed Breakdown" outlining the syllabuses.
+### Within each folder there is a file titled "Syllabus" breaking down each course in detail
 
 # Bioinformatics
 
