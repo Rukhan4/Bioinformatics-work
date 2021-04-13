@@ -1,4 +1,4 @@
-# Finding Hidden Messages in DNA (Bioinformatics I)
+# [Finding Hidden Messages in DNA (Bioinformatics I)](https://www.coursera.org/learn/dna-analysis)
 
 •Where in the Genome does DNA Replication begin (I,II,III,IV)
 
@@ -8,7 +8,7 @@
 
 **Project 1 - Searching for Motifs in Tuberculosis' Upstream Region (using Consensus, MEME, Weblogo)**
 
-# Genome Sequencing (Bioinformatics II)
+# [Genome Sequencing (Bioinformatics II)](https://www.coursera.org/learn/genome-sequencing)
 
 •String Reconstruction Problem
  
@@ -36,7 +36,7 @@
 
 **Project 2 - Genome Assembly of methicillin-resistant Staphylococcus aureus (MRSA) (using SPAder, Quast)**
 
-# Comparing Genes, Proteins and Genomes (Bioinformatics III)
+# [Comparing Genes, Proteins and Genomes (Bioinformatics III)](https://www.coursera.org/learn/comparing-genomes)
 
 •Sequence Comparison to Biological Insights
 
@@ -78,7 +78,7 @@
 
 **Project 3 - Locating and Analyzing A - Domains in Gramicidin Synthetase's Sequence (BLAST, Clustalw, Emboss)**
 
-# Molecular Evolution (Bioinformatics IV)
+# [Molecular Evolution (Bioinformatics IV)](https://www.coursera.org/learn/molecular-evolution?)
 
 •Transforming Distance Matrices into Evolutionary Trees
 
@@ -120,7 +120,7 @@
 
 **Project 4 - Constructing and Analyzing the Phylogenetic Tree of Ebola to find which strain caused the 2014 Guinea Outbreak (MEGA, Clustalw)**
 
-# Genomic Data Science and Clustering (Bioinformatics V)
+# [Genomic Data Science and Clustering (Bioinformatics V)](https://www.coursera.org/learn/genomic-data)
 
 •Which Yeast Genes are Responsible for Wine Making
 
@@ -146,7 +146,7 @@
 
 •Utilizing Genetic Markers (SNPs)
 
-# Finding Mutations in DNA and Proteins (Bioinformatics VI)
+# [Finding Mutations in DNA and Proteins (Bioinformatics VI)](https://www.coursera.org/learn/dna-mutations?)
 
 •Why use Map Reads
 
