@@ -1,5 +1,5 @@
 # Machine Learning by Stanford (CS 229) (80% pass rate for 11 sections with multiple quizzes and 8 programming assignments)
-**Cumulative Average: 94.50%
+**Cumulative Average: 94.50% 
 
 ## Model and Cost Function
 
