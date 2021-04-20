@@ -31,4 +31,4 @@ _a course offered by Stanford_
 # [Bioinformatics with Python packages](https://www.udemy.com/course/bioinformatics-with-python/)
 _a course offered through Udemy_
 
-consists of Jupyter Notebook scripts working with several common Bioinformatics Libraries and a special sequencing analysis project on Covid-19 with BioPython
+consists of Jupyter Notebook scripts working with several common Bioinformatics Libraries. Sequencing analysis project on Covid-19 with BioPython & Phylogenetic Tree Construction of Adam(first male)'s ancestral path
