@@ -23,12 +23,13 @@ _a specialization offered by Harvard_
 
 consists of 4 courses in R 
 
+# [Bioinformatics with Python packages](https://www.udemy.com/course/bioinformatics-with-python/)
+_a course offered through Udemy_
+
+consists of Jupyter Notebook scripts working with several common Bioinformatics Libraries. Sequencing analysis project on Covid-19 with BioPython & Phylogenetic Tree Construction of Adam(first male)'s siblings with Scikit-Bio
+
 # Machine Learning
 
 # [Machine Learning](https://www.coursera.org/learn/machine-learning)
 _a course offered by Stanford_
 
-# [Bioinformatics with Python packages](https://www.udemy.com/course/bioinformatics-with-python/)
-_a course offered through Udemy_
-
-consists of Jupyter Notebook scripts working with several common Bioinformatics Libraries. Sequencing analysis project on Covid-19 with BioPython & Phylogenetic Tree Construction of Adam(first male)'s siblings with Scikit-Bio
