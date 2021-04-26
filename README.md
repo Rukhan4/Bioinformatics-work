@@ -28,6 +28,11 @@ _a course offered through Udemy_
 
 consists of Jupyter Notebook scripts working with several common Bioinformatics Libraries. Sequencing analysis project on Covid-19 with BioPython & Phylogenetic Tree Construction of Adam(first male)'s siblings with Scikit-Bio
 
+# [Bioinformatics Meets Biologists](https://www.futurelearn.com/courses/linux-for-bioinformatics)
+_a course offered through FutureLearn_
+
+consists of a variety of Bash Shell Scripts used to practise and learn how to manipulate Biological Data from the Linux Terminal
+
 # Machine Learning
 
 # [Machine Learning](https://www.coursera.org/learn/machine-learning)
