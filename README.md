@@ -1,15 +1,18 @@
-### Within each folder there is a file "Syllabus" breaking down each course's content in detail
+# [Rosalind Profile](http://rosalind.info/users/Rukhan4/)
+
+
+### Note - Within each folder there is a file "Syllabus" breaking down each course's content in detail
 
 # Bioinformatics
 
-# [Biology Meets Programming](https://www.coursera.org/learn/bioinformatics)
+## [Biology Meets Programming](https://www.coursera.org/learn/bioinformatics)
 _a course offered by UCSD_ 
 
 BMP - Biology Meets Programming
 
 consists of 1 course in Python
 
-# [Bioinformatics Specialization](https://www.coursera.org/specializations/bioinformatics)
+## [Bioinformatics Specialization](https://www.coursera.org/specializations/bioinformatics)
 _a specialization offered by UCSD_ 
 
 consists of 6 courses in Python. 
@@ -18,23 +21,23 @@ consists of 6 courses in Python.
 
 NOTE: The dunder(name) == dunder("main") module name method was only employed starting from Bioinformatics III Week 5.
 
-# [Data Analysis for Life Sciences](https://www.edx.org/professional-certificate/harvardx-data-analysis-for-life-sciences?index=product&queryID=771038caca508483526c0c77cdef1866&position=1)
+## [Data Analysis for Life Sciences](https://www.edx.org/professional-certificate/harvardx-data-analysis-for-life-sciences?index=product&queryID=771038caca508483526c0c77cdef1866&position=1)
 _a specialization offered by Harvard_
 
 consists of 4 courses in R 
 
-# [Bioinformatics with Python packages](https://www.udemy.com/course/bioinformatics-with-python/)
+## [Bioinformatics with Python packages](https://www.udemy.com/course/bioinformatics-with-python/)
 _a course offered through Udemy_
 
 consists of Jupyter Notebook scripts working with several common Bioinformatics Libraries. Sequencing analysis project on Covid-19 with BioPython & Phylogenetic Tree Construction of Adam(first male)'s siblings with Scikit-Bio
 
-# [Bioinformatics Meets Biologists](https://www.futurelearn.com/courses/linux-for-bioinformatics)
+## [Bioinformatics Meets Biologists](https://www.futurelearn.com/courses/linux-for-bioinformatics)
 _a course offered through FutureLearn_
 
 consists of a variety of Bash Shell Scripts used to practise and learn how to manipulate Biological Data from the Linux Terminal
 
 # Machine Learning
 
-# [Machine Learning](https://www.coursera.org/learn/machine-learning)
+## [Machine Learning](https://www.coursera.org/learn/machine-learning)
 _a course offered by Stanford_
 
